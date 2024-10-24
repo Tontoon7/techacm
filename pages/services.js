@@ -32,7 +32,7 @@ export default function Services() {
               </div>
                 <div class="space-y-2">
                     <h3 class="font-bold">ROI Garanti</h3>
-                    <p class="text-sm text-muted-foreground">Réalisez en moyenne 30% d'économies sur vos outils digitaux tout en augmentant votre productivité dès les 3 premiers mois.</p>
+                    <p class="text-sm text-muted-foreground">Réalisez en moyenne 30% d&apos;économies sur vos outils digitaux tout en augmentant votre productivité dès les 3 premiers mois.</p>
                 </div>
             </div>
         </div>
@@ -58,7 +58,7 @@ export default function Services() {
                 </div>
                 <div class="space-y-2">
                     <h3 class="font-bold">Automatisation Sur Mesure</h3>
-                    <p class="text-sm text-muted-foreground">Gagnez jusqu'à 15h par semaine grâce à l'automatisation intelligente de vos tâches répétitives et de vos processus métier.</p>
+                    <p class="text-sm text-muted-foreground">Gagnez jusqu&apos;à 15h par semaine grâce à l&apos;automatisation intelligente de vos tâches répétitives et de vos processus métier.</p>
                 </div>
             </div>
         </div>
@@ -71,7 +71,7 @@ export default function Services() {
               </div>
                 <div class="space-y-2">
                     <h3 class="font-bold">Mise en Place</h3>
-                    <p class="text-sm text-muted-foreground">Profitez d'une méthodologie éprouvée permettant une implémentation très rapide adaptée à votre projet.</p>
+                    <p class="text-sm text-muted-foreground">Profitez d&apos;une méthodologie éprouvée permettant une implémentation très rapide adaptée à votre projet.</p>
                 </div>
             </div>
         </div>
@@ -97,7 +97,7 @@ export default function Services() {
               </div>
                 <div class="space-y-2">
                     <h3 class="font-bold">Expertise Reconnue</h3>
-                    <p class="text-sm text-muted-foreground">Plusieurs années d'expertise en solutions digitales et d'une veille constante sur plus de 300 outils testés et évalués pour votre secteur.</p>
+                    <p class="text-sm text-muted-foreground">Plusieurs années d&apos;expertise en solutions digitales et d&apos;une veille constante sur plus de 300 outils testés et évalués pour votre secteur.</p>
                 </div>
             </div>
         </div>
@@ -131,9 +131,9 @@ export default function Services() {
               <span className="text-4xl font-bold tracking-tight text-black dark:text-white">1 500€</span>
               <span className="text-sm font-semibold leading-6 text-gray-900 dark:text-white">HT</span>
             </p>
-            <a href="/contact" className="bg-white/10 text-black dark:text-white hover:bg-white/20 focus-visible:outline-white mt-6 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2">
+            <Link href="/contact" className="bg-white/10 text-black dark:text-white hover:bg-white/20 focus-visible:outline-white mt-6 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2">
               Réserver un audit
-            </a>
+            </Link>
             <ul role="list" className="mt-8 space-y-3 text-sm leading-6 text-gray-900 dark:text-white xl:mt-10">
               <li className="flex gap-x-3">
                 <Check className="h-6 w-5 flex-none text-black dark:text-white" />
@@ -157,19 +157,19 @@ export default function Services() {
           {/* Sprint d'Optimisation */}
           <div className="bg-small dark:bg-large ring-1 ring-white/10 hover:ring-indigo-500 hover:ring-2 hover:shadow-indigo-500 hover:scale-105 transition-all duration-300 rounded-3xl p-8 xl:p-10">
             <div className="flex items-baseline justify-between gap-x-4">
-              <h2 id="tier-sprint" className="text-lg font-semibold leading-8 text-black dark:text-white">Sprint d'Optimisation</h2>
+              <h2 id="tier-sprint" className="text-lg font-semibold leading-8 text-black dark:text-white">Sprint d&apos;Optimisation</h2>
               <p className="rounded-full bg-indigo-500 px-2.5 py-1 text-xs font-semibold leading-5 text-black dark:text-white">Plus populaire</p>
             </div>
             <p className="mt-4 text-sm leading-6 text-gray-900 dark:text-white">
-              Un mois d'accompagnement intensif pour transformer vos outils
+              Un mois d&apos;accompagnement intensif pour transformer vos outils
             </p>
             <p className="mt-6 flex items-baseline gap-x-1">
               <span className="text-4xl font-bold tracking-tight text-black dark:text-white">3 500€</span>
               <span className="text-sm font-semibold leading-6 text-gray-900 dark:text-white">HT</span>
             </p>
-            <a href="/contact" className="bg-indigo-500 text-black dark:text-white shadow-sm hover:bg-indigo-400 focus-visible:outline-indigo-500 mt-6 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2">
+            <Link href="/contact" className="bg-indigo-500 text-black dark:text-white shadow-sm hover:bg-indigo-400 focus-visible:outline-indigo-500 mt-6 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2">
               Démarrer un sprint
-            </a>
+            </Link>
             <ul role="list" className="mt-8 space-y-3 text-sm leading-6 text-gray-900 dark:text-white xl:mt-10">
               <li className="flex gap-x-3">
                 <Check className="h-6 w-5 flex-none text-black dark:text-white" />
@@ -185,7 +185,7 @@ export default function Services() {
               </li>
               <li className="flex gap-x-3">
                 <Check className="h-6 w-5 flex-none text-black dark:text-white" />
-                Support d'implémentation
+                Support d&apos;implémentation
               </li>
             </ul>
           </div>
@@ -202,9 +202,9 @@ export default function Services() {
               <span className="text-4xl font-bold tracking-tight text-black dark:text-white">8 500€</span>
               <span className="text-sm font-semibold leading-6 text-gray-900 dark:text-white">HT</span>
             </p>
-            <a href="/contact" className="bg-white/10 text-black dark:text-white hover:bg-white/20 focus-visible:outline-white mt-6 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2">
+            <Link href="/contact" className="bg-white/10 text-black dark:text-white hover:bg-white/20 focus-visible:outline-white mt-6 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2">
               Lancer votre transformation
-            </a>
+            </Link>
             <ul role="list" className="mt-8 space-y-3 text-sm leading-6 text-gray-900 dark:text-white xl:mt-10">
               <li className="flex gap-x-3">
                 <Check className="h-6 w-5 flex-none text-black dark:text-white" />
