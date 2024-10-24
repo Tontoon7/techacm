@@ -15,7 +15,7 @@ import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import Layout, { GradientBackground } from '../../components/Layout';
 import SEO from '../../components/SEO';
-
+import Navbar from '../../components/Navbar';
 // Custom components/renderers to pass to MDX.
 // Since the MDX files aren't loaded by webpack, they have no knowledge of how
 // to handle import statements. Instead, you must include components in scope
@@ -41,8 +41,8 @@ export default function PostPage({
         title={`${frontMatter.title} - ${globalData.name}`}
         description={frontMatter.description}
       />
-      <Header name={globalData.name} />
-      <article className="px-6 md:px-0 w-full mx-auto items-center">
+      <Navbar />
+      <article className="px-6 md:px-0 w-full mx-auto items-center mt-12">
         <header>
           <h1 className="mb-12 text-3xl text-center md:text-5xl dark:text-white">
             {frontMatter.title}
