@@ -7,11 +7,13 @@ import Layout, { GradientBackground } from '../components/Layout';
 import ArrowIcon from '../components/ArrowIcon';
 import { getGlobalData } from '../utils/global-data';
 import SEO from '../components/SEO';
+import Navbar from '../components/Navbar';
 
 export default function Index({ posts, globalData }) {
   return (
     <Layout>
       <SEO title={globalData.name} description={globalData.blogTitle} />
+      <Navbar />
       <Header name={globalData.name} />
       <main className="w-[1200px] mx-auto">
         <h1 className="mb-12 text-3xl text-center lg:text-5xl">
@@ -34,13 +36,14 @@ export default function Index({ posts, globalData }) {
                   </p>
                 )}
                 <h2 className="text-2xl md:text-3xl">{post.data.title}</h2>
-                {post.data.description && (
-                  <p className="mt-3 text-lg opacity-60">
+                <div className="flex flex-col items-end justify-end flex-end">
+                  {post.data.description && (
+                    <p className="mt-3 text-lg opacity-60 line-clamp-3">
                     {post.data.description}
                   </p>
-                )}
-                <ArrowIcon className="mt-4" />
-
+                  )}
+                  <ArrowIcon className="mt-4" />
+                </div>
               </Link>
             </li>
           ))}
